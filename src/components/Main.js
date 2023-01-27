@@ -1,18 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react'
 import ItemListContainer from './ItemListContainer'
 
-const Main = (props) => {
-
-  console.log(props)
+const Main = () => {
 
   return (
-     <>
+    <>
       <main>
-        <ItemListContainer greeting= { "Bienvenido" } /> 
+
+        <ItemListContainer greeting={"Bienvenido"} />
+  
       </main>
-      
-     </> 
-    
+    </>
   )
 }
 
