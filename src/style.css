@@ -1,0 +1,40 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html, body, #root {
+    height: 100vh;
+}
+
+
+#root{
+    display: flex;
+    flex-direction: column;
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 2rem;
+    background-color: yellow;
+}
+
+header nav a{
+    margin-left: 1rem;
+}
+
+main{
+    flex-grow: 1;
+    padding: 2rem;
+}
+
+footer{
+    background-color: yellow;
+    padding: 2rem;
+    text-align: center;
+    font-size: 0.8rem;
+}
