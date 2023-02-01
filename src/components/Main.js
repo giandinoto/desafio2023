@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import ItemListContainer from './ItemListContainer'
 
 const Main = () => {
@@ -6,9 +6,7 @@ const Main = () => {
   return (
     <>
       <main>
-
         <ItemListContainer greeting={"Bienvenido"} />
-  
       </main>
     </>
   )

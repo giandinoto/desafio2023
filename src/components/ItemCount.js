@@ -3,7 +3,7 @@ import { useState } from 'react'
 
 const ItemCount = (props) => {
 
-    console.log(props)
+    //console.log(props)
 
     let [estado, setEstado] = useState(props["initial"])
 
@@ -34,6 +34,7 @@ const ItemCount = (props) => {
             <button onClick={handleClickRestar}>Restar</button>
             <button onClick={handleClickReset}>Reset</button>
             <button onClick={props.onAdd}>Agregar Carrito</button>
+
         </>
     )
 }
